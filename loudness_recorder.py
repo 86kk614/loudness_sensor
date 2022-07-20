@@ -1,10 +1,7 @@
 import pyaudio
-import wave
 import audioop
-from sqlalchemy import create_engine
-import pandas as pd
 import psycopg2
-from datetime import datetime, date, timedelta
+from datetime import datetime
 
 
 CHUNK = 1024
